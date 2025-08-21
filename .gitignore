@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+.idea/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Streamlit
+.streamlit/*
+!.streamlit/config.toml
+
+# Databases (don’t commit your working DB)
+*.db
