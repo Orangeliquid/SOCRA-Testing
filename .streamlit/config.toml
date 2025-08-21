@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF10F0"  # Neon
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#FFF5EE"  # Seashell
+textColor = "#FAFAFA"
+font = "sans serif"
