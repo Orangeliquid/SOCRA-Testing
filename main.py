@@ -31,8 +31,6 @@ def enter_stats():
     create_stat_entries(entry_stats=validated_entry)
 
 
-# Todo - push to github
-# Todo - write github info for project
 if __name__ == '__main__':
     pass  # when ready remove pass and uncomment steps needed for setup
 
