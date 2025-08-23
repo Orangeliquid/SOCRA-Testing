@@ -1,6 +1,6 @@
 # SOCRA Testing 
 
-SOCRA Testing is a Streamlit front-end application that allows users to practice multiple-choice questions similar to those found on the Society of Clinical Research Associates (SOCRA) certification. The app offers tests of varying lengths: 5, 10, 15, 20, 30, or 50 questions.
+SOCRA Testing is a Streamlit front-end application that allows users to practice multiple choice questions similar to those found on the Society of Clinical Research Associates (SOCRA) certification. The app offers tests of varying lengths: 5, 10, 15, 20, 30, or 50 questions.
 
 After each question, the application immediately evaluates the answer and tracks statistics such as the total questions answered and total correct answers. Once the test is completed, users can review each question, see whether they answered it correctly or incorrectly, and view the correct answer. These statistics, along with detailed information about the SOCRA certification, are displayed on the landing page.
 
@@ -28,8 +28,14 @@ To run Socra Testing, follow these steps:
    git clone https://github.com/Orangeliquid/SOCRA-Testing
    cd SOCRA-Testing
    ```
+
+2. Ensure UV is downloaded:
+   - If UV is not downloaded on your system, download it via pip:
+   ```bash
+   pip install uv
+   ```
    
-2. Sync dependencies with UV:
+3. Sync dependencies with UV:
    ```bash
    uv sync
    ```
@@ -102,3 +108,4 @@ To run Socra Testing, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE.txt).
+
