@@ -26,7 +26,7 @@ To run Socra Testing, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Orangeliquid/SOCRA-Testing
-   cd SOCRA-Testing
+   cd SOCRA_Testing
    ```
 
 2. Ensure UV is downloaded:
@@ -43,7 +43,7 @@ To run Socra Testing, follow these steps:
 
 ## Getting Started
 
-1. Navigate to SOCRA-Testing and open main.py
+1. Navigate to SOCRA_Testing and open main.py
    - At the bottom under __main__ remove pass line.
    - uncomment steps 1 and 2
    - in terminal run:
@@ -51,20 +51,20 @@ To run Socra Testing, follow these steps:
       uv run main.py
       ```
 
-3. Verify that Socra_Testing.db exists at Socra-Testing/Socra_Testing.db
+2. Verify that Socra_Testing.db exists at Socra-Testing/Socra_Testing.db
    - Now the database is created and populated with 166 question/option/answers
 
-5. Start the application via terminal:
+3. Start the application via terminal:
    ```bash
    uv run streamlit run streamlit_app.py
    ```
    
-6. Look around the landing page, data includes:
+4. Look around the landing page, data includes:
    - SOCRA Overview
    - Overall Stats
    - "Choose Your Path" button
 
-7. Select "Choose Your Path"
+5. Select "Choose Your Path"
    - Six buttons with be displayed, each name indicating the number of multiple choice questions within each test.
    - Fast Five
    - Power Ten
@@ -73,13 +73,13 @@ To run Socra Testing, follow these steps:
    - Sturdy Thirty
    - Nifty Fifty
 
-8. Chose a test and try your best!
+6. Chose a test and try your best!
 
-9. Review the end results of your test
+7. Review the end results of your test
 
-10. Press 'Exit' button to return to the main menu
+8. Press 'Exit' button to return to the main menu
 
-11. Take a look at Overall Stats
+9. Take a look at Overall Stats
    - These stats will persist after each question answered and will load when the application is ran again.
    - Reset Stats button will set Total Correct Answers, Total Questions Answered, and Correct Percentage back to 0.
 
@@ -108,4 +108,5 @@ To run Socra Testing, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE.txt).
+
 
